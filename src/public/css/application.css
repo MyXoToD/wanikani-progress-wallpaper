@@ -1,0 +1,24 @@
+:root {
+  --c-background: #fcf9ea;
+  --c-primary: #badfdb;
+  --c-secondary: #ff6f61;
+  --c-accent: #ffbdbd;
+}
+
+.dark {
+  --c-background: #1a1a1d;
+  --c-primary: #3b1c32;
+  --c-secondary: #6a1e55;
+  --c-accent: #a64d79;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  background-color: var(--c-background);
+}
